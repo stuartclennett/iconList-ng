@@ -1,0 +1,16 @@
+<h1>Icon Sets</h1>
+<icon-filter-text-box (onChanged)="handleOnChangedFilter($event)"></icon-filter-text-box>
+<div class="card mt-4" *ngIf="error">
+  <div class="card-header">Error</div>
+  <div class="card-content">{{ error }}</div>
+</div>
+<div  *ngFor="let icon of icons" class="card mt-4">
+  <h4 class="card-header">{{ icon.category }}</h4>
+  <div class="card-content pt-3 pl-3 pr-3">
+    <div *ngFor="let file of icon.files">
+      <img [src]="this.getImgUrl(icon.category,file.counter)" [ngClass]="file.className" [title]="file.displayName" [alt]="file.counter" loading="lazy">
+      <p>{{file.displayName}}</p>
+    </div>
+  </div>
+</div>
+ 
