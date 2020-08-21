@@ -1,1 +1,71 @@
 /* You can add global styles to this file, and also import other style files */
+.icon-grid {
+  display: grid;
+  grid-template-columns: 10%;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  text-align: center;
+}
+
+.item2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  text-align: center;  
+}
+
+.item3 {
+  grid-column-start: 3;
+  grid-column-end: 3;
+  text-align: center;  
+}
+
+.item4 {
+  grid-column-start: 4;
+  grid-column-end: 4;
+  text-align: center;  
+}
+
+.item5 {
+  grid-column-start: 5;
+  grid-column-end: 5;
+  text-align: center;  
+}
+
+.item5 {
+  grid-column-start: 5;
+  grid-column-end: 5;
+  text-align: center;  
+}
+
+.item6 {
+  grid-column-start: 6;
+  grid-column-end: 6;
+  text-align: center;
+}
+
+.item7 {
+  grid-column-start: 7;
+  grid-column-end: 7;
+  text-align: center;  
+}
+
+.item8 {
+  grid-column-start: 8;
+  grid-column-end: 8;
+  text-align: center;  
+}
+
+.item9 {
+  grid-column-start: 9;
+  grid-column-end: 9;
+  text-align: center;  
+}
+
+.item10 {
+  grid-column-start: 10;
+  grid-column-end: 10;
+  text-align: center;  
+}
